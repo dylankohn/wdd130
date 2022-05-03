@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(109, 201, 192);
+}
+h1 {
+    color:white;
+    background-color: limegreen;
+    padding: 15px 30px;
+    font-size: 3em;
+    border: 3px groove orange;
+    margin: 50px 100px 10px 100px; 
+}
+h2 {
+    color: white;
+    background-color: gray;
+    padding: 15px 30px;
+    font-size: 2em;
+    border: 3px groove orange;
+    margin: 0px 100px 10px 100px; 
+}
+p {
+    width: 700px;
+    margin:15px auto;
+}
+.thinner {
+    width: 500px;
+    line-height: 1.5em;
+}
+#myname {
+    font-size: 3em;
+}

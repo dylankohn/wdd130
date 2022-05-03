@@ -1,0 +1,67 @@
+body {
+    background-image: url('/wdd130/wwr/images/raftingdate.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    background-position: center;
+   
+  }
+
+nav {
+    background-color: #EDDDD4;
+    line-height: 2em;
+    text-align: center;
+    font-size: 1.2em;
+    display: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    border: ridge;
+    border-top: none;
+    border-color:#283D3B;
+    border-width: 3px;
+    
+  }
+nav a {
+    padding:0.33em;
+    min-width: 120px;
+    text-decoration: none;
+    margin:2em;
+    color:#197278;
+    
+  }
+nav a:hover{
+    background-color: #283D3B;
+    color:#EDDDD4;
+}
+
+  h1{
+    background-color: #197278;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    margin:0px;
+    color: #EDDDD4;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    border: ridge;
+    border-width: 3px;
+    border-bottom: none;
+    border-color: #283D3B;
+}
+
+.panel {
+   
+    background-color: rgb(25, 114, 120,.8);
+    margin: 5%;
+    width: 25vw;
+    height: 50vh;
+    border: groove;
+    border-color:#283D3B;
+    color:white;
+    float:left;
+    margin-left:15%;
+}
+
+
+
