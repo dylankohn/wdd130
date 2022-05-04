@@ -55,12 +55,13 @@ h1{
     background-color: rgb(25, 114, 120,.8);
     margin: 5%;
     width: 25vw;
-    height: 50vh;
+    height: fit-content;
     border: groove;
     border-color:#283D3B;
     color:white;
     float:left;
-    margin-left:15%;
+    margin-left:12%;
+    padding: 2%;
 }
 
 h2{
@@ -83,7 +84,7 @@ h2{
     padding: 1em 4em;
     background-color: #EDDDD4;
     text-decoration: none;
-    margin-left: 32%;
+    margin-left: 25%;
     border: groove;
     border-color: #283D3B;
     font-family: 'Poppins', sans-serif;
