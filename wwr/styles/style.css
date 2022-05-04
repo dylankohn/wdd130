@@ -35,7 +35,7 @@ nav a:hover{
     color:#EDDDD4;
 }
 
-  h1{
+h1{
     background-color: #197278;
     padding-top: .5em;
     padding-bottom: .5em;
@@ -63,5 +63,34 @@ nav a:hover{
     margin-left:15%;
 }
 
+h2{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color:#EDDDD4;
+}
 
+.paragraph{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    padding: 1em;
+    line-height: 2em;
+    color:#EDDDD4;
+    text-align: justify;
+}
 
+.button{
+    color:#283D3B;
+    padding: 1em 4em;
+    background-color: #EDDDD4;
+    text-decoration: none;
+    margin-left: 32%;
+    border: groove;
+    border-color: #283D3B;
+    font-family: 'Poppins', sans-serif;
+}
+
+.panel a:hover{
+    background-color: #283D3B;
+    color:#EDDDD4;
+    border-color:#EDDDD4
+}
