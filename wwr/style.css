@@ -1,0 +1,29 @@
+h1{
+    color:orange;
+}
+.marpar{
+    margin: 20px 50px;
+}
+.background{
+    padding: 3em;
+    background-color: blue;
+    color:white;
+    text-align: center;
+}
+img{
+    float:right;
+    padding:15px;
+    width:350px;
+}
+section{
+    margin:50px;
+    background-color: lightgray;
+    border:solid;
+    border-color:black;
+    border-width: 2px; 
+    color:purple;
+    border-radius: 10px;
+}
+.clear{
+    clear:both;
+}
