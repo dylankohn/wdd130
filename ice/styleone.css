@@ -22,12 +22,13 @@ img {
     margin-right: auto;
     width:150px;
 }
-p {
+.edu {
     color:white;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     width:30%;
     margin-left:35%;
+    line-height:2;
 }
 .quote{
     color: white;
@@ -35,6 +36,7 @@ p {
     width:20%;
     margin-left:40%;
     font-family: 'EB Garamond', serif;
+    text-align: center;
 }
 h2{
     color: white;
@@ -52,4 +54,5 @@ li{
     color:black;
     font-size:.9em;
     font-family: 'Roboto', sans-serif;
+    text-align: center;
 }
