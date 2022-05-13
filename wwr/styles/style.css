@@ -1,3 +1,9 @@
+*
+{
+    margin:0px;
+    padding:0px;
+}
+
 body {
     background-image: url('/wdd130/wwr/images/raftingdate.jpg');
     background-repeat: no-repeat;
@@ -5,7 +11,7 @@ body {
     background-attachment: fixed;
     height: 100%;
     background-position: center;
-   
+    text-align: center;
   }
 
 nav {
@@ -28,7 +34,7 @@ nav a {
     text-decoration: none;
     margin:2em;
     color:#197278;
-    
+    text-align: center;
   }
 nav a:hover{
     background-color: #283D3B;
@@ -48,6 +54,7 @@ h1{
     border-width: 3px;
     border-bottom: none;
     border-color: #283D3B;
+    text-align: center;
 }
 
 .panel {
@@ -62,6 +69,7 @@ h1{
     float:left;
     margin-left:12%;
     padding: 2%;
+    text-align: center;
 }
 
 h2{
@@ -88,6 +96,7 @@ h2{
     border: groove;
     border-color: #283D3B;
     font-family: 'Poppins', sans-serif;
+    text-align: center;
 }
 
 .panel a:hover{
@@ -96,3 +105,15 @@ h2{
     border-color:#EDDDD4
 }
 
+footer{
+    background-color:#197278;
+}
+
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.logo{
+    width:80px;
+}

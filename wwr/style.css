@@ -23,6 +23,7 @@ section{
     border-width: 2px; 
     color:purple;
     border-radius: 10px;
+    text-align: center;
 }
 .clear{
     clear:both;
