@@ -1,0 +1,11 @@
+body {
+    background-color: aqua;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#success{
+    grid-column: 1/3;
+    background-color: yellow; 
+}
