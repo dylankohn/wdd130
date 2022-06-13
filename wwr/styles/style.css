@@ -19,7 +19,9 @@ nav {
     line-height: 2em;
     text-align: center;
     font-size: 1.2em;
-    display: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    height:3em;
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
     border: ridge;
@@ -29,10 +31,9 @@ nav {
     
   }
 nav a {
-    padding:0.33em;
+    padding:.5em;
     min-width: 120px;
     text-decoration: none;
-    margin:2em;
     color:#197278;
     text-align: center;
   }
@@ -92,7 +93,6 @@ h2{
     padding: 1em 4em;
     background-color:#197278;
     text-decoration: none;
-    margin-left: 25%;
     border: groove;
     border-color: #283D3B;
     font-family: 'Poppins', sans-serif;
@@ -118,7 +118,8 @@ footer{
 }
 
 .logo{
-    width:80px;
+    width:70px;
+    margin-left: 10em;
 }
 
 section{
@@ -138,6 +139,19 @@ section a{
     font-family: 'Poppins', sans-serif;
 }
 
-img{
+.imgborder{
     border:solid #EDDDD4 5px;
+}
+
+.icon {
+    border:solid #EDDDD4 5px;
+}
+h4{
+    margin-bottom:1em;
+}
+.site{
+    margin: 1.2em;
+}
+.copy{
+    margin-top: 1em;
 }
