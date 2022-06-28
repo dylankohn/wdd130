@@ -1,0 +1,165 @@
+*
+{
+    margin:0px;
+    padding:0px;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+
+
+header{
+    text-align: center;
+}
+nav{
+    background-color:rgba(0, 0, 0, 0.773);
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-auto-flow: column;
+}
+
+h1{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+}
+
+nav a{
+    text-decoration: none;
+    padding: 1em;
+    color: white;
+    margin: auto 3em;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+nav a:hover{
+    background-color: lightgray;
+    padding:1em;
+}
+
+.pararight{
+    padding:1%;
+    margin-left: 50vw;
+    text-align: justify;
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 2;
+    width: 25vw;
+    font-weight: 300;
+}
+
+.paraleft{
+    padding:1%;
+    margin-right: 50vw;
+    text-align: justify;
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 2;
+    font-weight: 300;
+}
+
+.headerleft{
+    padding: 1%;
+    text-align: right;
+    text-align: justify;
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 2;
+    font-weight: 300;
+    grid-column: 1/2;
+}
+.headerright{
+    padding: 1%;
+    text-align: justify;
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 2;
+    font-weight: 300;
+    grid-column: 4/5;
+}
+
+.old{
+    background-color: darkgray;
+    padding: 0px;
+}
+
+.img1{
+    float:right;
+    width:20vw;
+    margin:1%;
+    border:solid 5px black;
+}
+
+.new{
+    background-color: white;
+    border:solid 4px #283D3B;
+}
+
+.img2{
+    float:left;
+    width:20vw;
+    margin: 1%;
+    border:solid 5px black;
+}
+
+.clear{
+    clear:both;
+}
+
+.top {
+    background-color: white;
+    padding:0px;
+    height:390px;
+    border:solid 4px #283D3B;
+    border-top: 0px;
+}
+
+.header{
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-auto-flow: column;
+    border:solid 4px #283D3B;
+}
+img{
+    margin-left: 3vw;
+}
+    
+  #stage a {
+    position:absolute;
+    align-content: center;
+    width: 100px;
+    margin: auto;
+    text-align: center;
+    
+  }
+
+  #stage a:nth-of-type(1) {
+    animation-name: fader;
+    animation-delay: 4s;
+    animation-duration: 1s;
+    z-index: 20;
+  }
+  #stage a:nth-of-type(2) {
+    z-index: 10;
+  }
+  #stage a:nth-of-type(n+3) {
+    display: none;
+  }
+
+  @keyframes fader {
+    from { opacity: 1.0; }
+    to   { opacity: 0.0; }
+  }
+
+.info{
+    text-align: center;
+    margin: 1em;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 200;
+}
+.bottom{
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-auto-flow: column;
+    background-color: darkgray;
+    width:100%;
+}
+

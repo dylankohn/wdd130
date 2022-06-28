@@ -1,0 +1,139 @@
+*
+{
+    margin:0px;
+    padding:0px;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+nav{
+    background-color:rgba(0, 0, 0, 0.773);
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-auto-flow: column;
+}
+
+h1{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+}
+
+nav a{
+    text-decoration: none;
+    padding: 1em;
+    color: white;
+    margin: auto 3em;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+nav a:hover{
+    background-color: lightgray;
+    padding:1em;
+}
+
+header{
+    text-align: center;
+}
+
+.headerleft{
+    padding: 1%;
+    text-align: right;
+    text-align: justify;
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 2;
+    font-weight: 300;
+    grid-column: 1/2;
+}
+.headerright{
+    padding: 1%;
+    text-align: justify;
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 2;
+    font-weight: 300;
+    grid-column: 4/5;
+}
+
+.header{
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-auto-flow: column;
+    border:solid 4px #283D3B;
+}
+
+.headimg{
+    margin-left: 5vw;
+    grid-column: 2/4;
+}
+
+.img1{
+    float: right;
+    width:30vw;
+    margin:1%;
+    border:solid 5px black;
+}
+
+.img2{
+    float:left;
+    width:30vw;
+    margin:1%;
+    border:solid 5px black;
+}
+
+.lounge{
+    background-color: darkgray;
+    padding: 0px;
+}
+
+.dine{
+    background-color: white;
+    border:solid 4px #283D3B;
+}
+
+.clear{
+    clear:both;
+}
+
+.dining{
+    background-color: white;
+    border:solid 4px #283D3B;
+}
+
+.pararight{
+    padding:1%;
+    margin-left: 40vw;
+    text-align: justify;
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 2;
+    width: 25vw;
+    font-weight: 300;
+}
+
+.paraleft{
+    padding:1%;
+    margin-right: 40vw;
+    text-align: justify;
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 2;
+    font-weight: 300;
+}
+
+.social{
+    margin-left: 3vw;
+}
+
+.info{
+    text-align: center;
+    margin: 1em;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 200;
+}
+.bottom{
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-auto-flow: column;
+    background-color: darkgray;
+    width:100%;
+}
